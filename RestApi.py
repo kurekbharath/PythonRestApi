@@ -7,7 +7,7 @@ import sqlite3
 app = flask.Flask(__name__)
 app.config["DEBUG"] == True
 
-dataBasePath = "C:/Bharath/DevOps/poc/mypython/sqlite/Tables"
+dataBasePath = "./databaseConfig"
 databaseName = "Company.db"
 
 def dict_factory(cursor, row):
